@@ -32,3 +32,34 @@
 // var jsonString = JSON.stringify(usuarios, replacer);
 
 // console.log(jsonString);
+
+/* 
+function find_max(nums) {
+
+  let max_num = Number.NEGATIVE_INFINITY
+  for (const num of nums) {
+
+      if(num > max_num) {
+        max_num = num;
+      }
+    
+  }
+
+  console.log(max_num);
+  
+}
+
+
+const teste = [-2,10,25,30,-20,2,-4,-40];
+
+find_max(teste)
+ */
+
+
+ const teste1 = [1,2,3,4];
+ const teste2 = [];
+
+ console.log({
+   teste1: teste1.length, 
+   teste2: teste2.length
+ });
